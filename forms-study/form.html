@@ -35,12 +35,12 @@
 			  <input type = "text" name = "zip" id = "billingZip" pattern = "[0-9]{5}" required><br/>
 
 		   </fieldset>
-	<!-- se você quiser que seja obrigatório o preenchimento, usar "required" (para cancelar, pode-se escrever novalidate no <form>) -->
-	<!-- pattern: funciona com type=text. EX: [0-9]{5} (obrigatório ter 5 dígitos) [a-ZA-Z]+ (o + faz com que tenha pelo menos 1 caractere)-->
-	<!-- https://www.html5pattern.com/ têm tudo os pattern que precisa!-->
 		   <input type = "submit" value = "Verify"/ onclick="return check();">	
 		   </form>
 	<footer>
 		<p><small>&copy; Lauro Camargo</small></p></footer>
 </body>
+	<!-- se você quiser que seja obrigatório o preenchimento, usar "required" (para cancelar, pode-se escrever novalidate no <form>)
+	pattern: funciona com type=text. EX: [0-9]{5} (obrigatório ter 5 dígitos) [a-ZA-Z]+ (o + faz com que tenha pelo menos 1 caractere)
+	https://www.html5pattern.com/ têm tudo os pattern que precisa!-->
 </html>
