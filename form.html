@@ -10,23 +10,35 @@
 </header>
 <div>
 	<form>
+		<fieldset>
 		<!-- Dá pra fazer o formulário de duas formas, como está no Name e como está no E-mail-->
-		<label for="name">Name</label>
-		<input required type="text" id="name" name="name" value="Lauro"><br/>
-		<label>E-mail:<input required type="email" name="email" id="email1"></label><br/>
-		<label>Confirm E-mail:<input required type="email" name="email_confirm" id="email2" require onchange="check()"></label><br/>
-		<label for="birth">Birth</label>
-		<input required type="date" id="birth" name="birth"><br/>
-		<input type="submit" value="Enviar" onclick="return check();">
-		<!-- se você quiser que seja obrigatório o preenchimento, usar "required" (para cancelar, pode-se escrever novalidate no <form>) -->
-		<!-- pattern: funciona com type=text. EX: [0-9]{5} (obrigatório ter 5 dígitos) [a-ZA-Z]+ (o + faz com que tenha pelo menos 1 caractere)-->
-		<!-- https://www.html5pattern.com/ têm tudo os pattern que precisa!-->
+			<label>E-mail:<input required type="email" name="email" id="email1"></label><br/>
+			<label>Confirm E-mail:<input required type="email" name="email_confirm" id="email2" require onchange="check()"></label><br/>
 
-		
+			 <legend>Shipping Information</legend>			  
+			 <label for ="shippingName">Name:</label>		  
+			 <input type = "text" name = "Name" id = "shippingName" required><br/>
+	   
+			 <label for = "shippingzip">Zip code:</label>		 
+			 <input type = "text" name = "zip" id = "shippingZip" pattern = "[0-9]{5}" required><br/>
 
+		   	 <input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>		
+			 <label for = "same">Is the Billing Information the Same?</label>						
+			 <fieldset>
 
+			  <legend>Billing Information</legend>			  
+			  <label for ="billingName">Name:</label>		  
+			  <input type = "text" name = "Name" id = "billingName" required><br/>
+			  
+			  <label for = "billingzip">Zip code:</label>		  
+			  <input type = "text" name = "zip" id = "billingZip" pattern = "[0-9]{5}" required><br/>
 
-	</form>
+		   </fieldset>
+	<!-- se você quiser que seja obrigatório o preenchimento, usar "required" (para cancelar, pode-se escrever novalidate no <form>) -->
+	<!-- pattern: funciona com type=text. EX: [0-9]{5} (obrigatório ter 5 dígitos) [a-ZA-Z]+ (o + faz com que tenha pelo menos 1 caractere)-->
+	<!-- https://www.html5pattern.com/ têm tudo os pattern que precisa!-->
+		   <input type = "submit" value = "Verify"/ onclick="return check();">	
+		   </form>
 	<footer><p><a href="#top">Back to top</a> 
 		<a href="https://twitter.com/laurocneto">Contact</a></p>
 		<p><small>&copy; Lauro Camargo</small></p></footer>
