@@ -17,10 +17,10 @@
 			</fieldset><fieldset>
 			 <legend>Shipping Information</legend>			  
 			 <label for ="shippingName">Name:</label>		  
-			 <input type = "text" name = "Name" id = "shippingName" required><br/>
+			 <input required type = "text" name = "Name" id = "shippingName" pattern = "[a-zA-Z0-9]+"><br/>
 	   
 			 <label for = "shippingzip">Zip code:</label>		 
-			 <input type = "text" name = "zip" id = "shippingZip" pattern = "[0-9]{5}" required><br/>
+			 <input required type = "text" name = "zip" id = "shippingZip" pattern = "(\d{5}([\-]\d{4})?)" required><br/>
 
 		   	 <input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>		
 			 <label for = "same">Is the Billing Information the Same?</label>						
@@ -29,10 +29,10 @@
 
 			  <legend>Billing Information</legend>			  
 			  <label for ="billingName">Name:</label>		  
-			  <input type = "text" name = "Name" id = "billingName" required><br/>
+			  <input required type = "text" name = "Name" id = "billingName" pattern = "[a-zA-Z0-9]+"><br/>
 			  
 			  <label for = "billingzip">Zip code:</label>		  
-			  <input type = "text" name = "zip" id = "billingZip" pattern = "[0-9]{5}" required><br/>
+			  <input required type = "text" name = "zip" id = "billingZip" pattern = "(\d{5}([\-]\d{4})?)" required><br/>
 
 		   </fieldset>
 		   <input type = "submit" value = "Verify"/ onclick="return check();">	
