@@ -1,0 +1,16 @@
+sort1 uses: bubble sort
+
+How do you know?:
+Após rodar todos os arquivos sort em cada um dos txt, notei que o Sort2 têm um tempo de execução constante em todos os txt, além de ser mais rápido, que os outros, com exceção do sorted.
+Já que o sort1 teve um tempo de execução rápido do sorted, diferente do random e reversed, observando que Bubble tem Omega(n), enquanto O(n²), fazia sentido se destacar no sorted, deixando a desejar nos outros 2.
+
+sort2 uses: merge sort
+
+How do you know?:
+O sort2 teve números constantes em todos os txt., com esse resultado e considerando que tem Theta(n log n), faz mais sentido ser merge do que bubble e selection.
+
+sort3 uses: selection sort
+
+How do you know?:
+Por fim, sort3 teve um desempenho constante nos 3 testes, mas pior desempenho no sorted, sendo um pouco melhor que bubble e pior que merge tanto em random como em reversed.
+Considerando que tem Theta(n²) e seu resultado sem variação no sorted, faz sentido ser selection.
