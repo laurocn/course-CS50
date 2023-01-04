@@ -1,6 +1,6 @@
 <h1>Curso CS50 de Harvard</h1>
-  <p>Esse é um repositório do curso de CS50 de Harvard no Brasil, trazido pela Fundação Estudar. Aqui organizei a resolução dos exercícios feitos por mim ao longo do curso, deixando os exercícios disponíveis para apreciação.</p>
-  <p>Caso você seja um(a) estudante do curso, não é permitida a cópia das resoluções aqui publicadas (fora a questão ética, fazer os exercícios fazem parte do seu processo de aprendizagem!). Fico a disposição para conversar sobre as resoluções e tirar dúvidas de quem esteja tentando solucionar os problemas, se sintam livres para entrar em contato.</p>
+  <p>Este é um repositório do curso de CS50 de Harvard no Brasil, trazido pela Fundação Estudar. Aqui organizei a resolução dos exercícios feitos por mim ao longo do curso, deixando os exercícios disponíveis para apreciação.</p>
+  <p>Caso você seja um(a) estudante do curso, não é permitida a cópia das resoluções aqui publicadas (fora o problema ético, fazer os exercícios fazem parte do seu processo de aprendizagem!). Fico a disposição para conversar sobre as resoluções e tirar dúvidas de quem esteja tentando solucionar os problemas, se sintam livres para entrar em contato.</p>
   <p>Aos poucos vou atualizar o repositório com os exercícios que faltam.</p>
 
 <h2>Learning tasks</h2>
